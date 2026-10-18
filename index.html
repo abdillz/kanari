@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulator Pembuktian Kontak Kanari</title>
+<meta name="description" content="Alat peraga alur pembuktian Kontak Kanari untuk esai Borneo Law Fair XXV. Seluruh data adalah simulasi.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="sim-banner" role="note">
+  <strong>DATA SIMULASI.</strong> Alat peraga untuk esai &ldquo;Agunan yang Tidak Pernah Diperjanjikan&rdquo; (Lomba Esai Nasional Borneo Law Fair XXV). Bukan produk, bukan sistem OJK. Nama penyelenggara, nomor, dan pesan adalah fiktif.
+</div>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <div>
+      <h1>Simulator Pembuktian Kontak Kanari</h1>
+      <p>Alat peraga pengawasan perilaku penagihan pindar</p>
+    </div>
+  </div>
+  <div class="variant-wrap">
+    <label for="variant">Varian kanari</label>
+    <select id="variant">
+      <option value="aktif">3. Kanari Aktif (tunggakan terkendali)</option>
+      <option value="relawan">2. Kanari Relawan (tunggakan nyata dari pengadu)</option>
+      <option value="pasif">1. Kanari Pasif (tanpa tunggakan)</option>
+    </select>
+  </div>
+</header>
+
+<nav class="stepper" aria-label="Urutan layar">
+  <a href="#penanaman" data-step="penanaman"><span class="n">1</span><span class="t">Penanaman</span></a>
+  <a href="#pelacakan" data-step="pelacakan"><span class="n">2</span><span class="t">Pelacakan</span></a>
+  <a href="#uji" data-step="uji"><span class="n">3</span><span class="t">Uji Fungsi</span></a>
+  <a href="#akibat" data-step="akibat"><span class="n">4</span><span class="t">Akibat Hukum</span></a>
+</nav>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="foot">
+  <span>Rujukan esai: Gambar 4, Lampiran 3, 7, 8, dan 15.</span>
+  <button type="button" id="reset" class="link-btn">Atur ulang simulasi</button>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
